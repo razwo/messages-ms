@@ -12,6 +12,9 @@ Except for the main thread, we have a single thread that listener the queue and 
 
 * Pool thread size value configure in application.properties file.
 
+### Postman
+Root folder contain postman collection to invoke MS. 
+
 ##
 
 ### Reference Documentation
