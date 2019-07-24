@@ -1,7 +1,11 @@
 package com.payoneer.demo.impl;
 
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.io.Serializable;
 
+@NoArgsConstructor @Setter
 public class MessageRequest implements Serializable {
     private String id;
     private String message;
